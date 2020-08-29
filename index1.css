@@ -1,0 +1,18 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+body {
+    background-image: url(aurora.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+}
+.container {
+    width: 100%;
+    height: auto;
+}
+
+.dp {
+    float: left;
+    height: auto;
+    width: auto;
+}

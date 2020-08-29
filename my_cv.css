@@ -1,0 +1,12 @@
+body {
+    background-image: url(aesthetic1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.navbar1 {
+    list-style-type: none;
+    padding: 0%;
+    margin: 0%;
+}
