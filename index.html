@@ -6,70 +6,139 @@
     <title>My_Profile</title>
     <link rel="icon" href="image/DeadShock.png" type="image/x-icon">
     <style>
-       body {
-  background-image: url('image/wp4198956-mgaming-wallpapers.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  color: white;
-}
+        body {
+            background-image: url('damngood.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            color: white;
+        }
 
-a:link {
-  color: white;
-  background-color: transparent;
-  text-decoration: none;
-}
+        a:link {
+            color: white;
+            background-color: transparent;
+            text-decoration: none;
+        }
 
-a:visited {
-  color: white;
-  background-color: transparent;
-  text-decoration: none;
-}
+        a:visited {
+            color: white;
+            background-color: transparent;
+            text-decoration: none;
+        }
 
-a:hover {
-  color: yellow;
-  background-color: transparent;
-  text-decoration: none;
-}
+        a:hover {
+            color: yellow;
+            background-color: transparent;
+            text-decoration: none;
+        }
 
-a:active {
-  color: white;
-  background-color: transparent;
-  text-decoration: none;
-}
+        a:active {
+            color: white;
+            background-color: transparent;
+            text-decoration: none;
+        }
 
-@import url(https://fonts.googleapis.com/css?family=Roboto);
+        @import url(https://fonts.googleapis.com/css?family=Roboto);
 
-body {
-  height: 100%;
-}
+        body {
+            height: 100%;
+        }
 
-nav {
-  max-width: 960px;
-  mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%);
-  margin: 0 auto;
-  padding: 60px 0;
-}
+        nav {
+            max-width: 960px;
+            mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%);
+            margin: 0 auto;
+            padding: 60px 0;
+        }
 
-nav ul {
-  text-align: center;
-}
+        nav ul {
+            text-align: center;
+        }
 
 
-nav ul li {
-  display: inline-block;
-}
+        nav ul li {
+            display: inline-block;
+        }
 
-nav ul li a {
-  padding: 20px;
-  font-family: "Roboto";
-  color: rgba(0, 0, 0, 0.5);
-  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.4);
-  font-size: 25px;
-  text-decoration: none;
-  display: block;
-  border-radius: 10%;
-}
+        nav ul li a {
+            padding: 20px;
+            font-family: "Roboto";
+            color: rgba(0, 0, 0, 0.5);
+            text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.4);
+            font-size: 25px;
+            text-decoration: none;
+            display: block;
+            border-radius: 10%;
+        }
+
+        @media only screen and (max-width: 600px) {
+            #main {
+                margin-left: 0
+            }
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .row {
+            display: -ms-flexbox;
+            /* IE10 */
+            display: flex;
+            -ms-flex-wrap: wrap;
+            /* IE10 */
+            flex-wrap: wrap;
+            padding: 0 4px;
+        }
+
+        /* Create four equal columns that sits next to each other */
+        .column {
+            -ms-flex: 25%;
+            /* IE10 */
+            flex: 25%;
+            max-width: 25%;
+            padding: 0 4px;
+        }
+
+        .column img {
+            margin-top: 8px;
+            vertical-align: middle;
+            width: 100%;
+        }
+
+        .container-fluid {
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            max-width: 300px;
+            margin: auto;
+            text-align: center;
+            font-family: arial;
+            background-color: purple;
+            margin-top: 2%;
+            opacity: 0.95;
+        }
+
+        .title {
+            color: grey;
+            font-size: 18px;
+        }
+
+        button {
+            border: none;
+            outline: 0;
+            display: inline-block;
+            padding: 8px;
+
+            background-color: black;
+            text-align: center;
+            cursor: pointer;
+            width: 100%;
+            font-size: 18px;
+        }
     </style>
 </head>
 
@@ -89,7 +158,7 @@ nav ul li a {
                 <a href="#skills">Skills</a>
             </li>
             <li>
-                <a href="projects.html" target="_blank">Projects</a>
+                <a href="#projects">Projects</a>
             </li>
             <li>
                 <a href="#contact">Contact Me</a>
@@ -116,52 +185,66 @@ nav ul li a {
             <br>
             <br>
             <div id="aboutme">
-            <h2 style="font-size: 30px;">About Myself</h2>
-            <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 16px;">I am
-                currently enrolled in the B.Tech program of computer science in Manipal University Jaipur</p>
-            <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 16px;">I love
-                reading books and watching movies and web series</p>
-            <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 16px;">I also
-                enjoy photography. The nature just fascinates me and I cannot help but capture the beauty of
-                nature
-            </p>
-            <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 16px;">I love
-                singing and I also wish to learn guitar and flute and play my favourite songs</p>
-            <br>
-            <br>
-            <br>
+                <h2 style="font-size: 30px;">About Myself</h2>
+                <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 16px;">I am
+                    currently enrolled in the B.Tech program of computer science in Manipal University Jaipur</p>
+                <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 16px;">I
+                    love
+                    reading books and watching movies and web series</p>
+                <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 16px;">I
+                    also
+                    enjoy photography. The nature just fascinates me and I cannot help but capture the beauty of
+                    nature
+                </p>
+                <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 16px;">I
+                    love
+                    singing and I also wish to learn guitar and flute and play my favourite songs</p>
+                <br>
+                <br>
+                <br>
             </div>
             <div id="resume">
-            <h2 style="font-size: 24px;">My Resume</h2>
-            <a href="My_resume.html" target="_blank">Click here to access, scrutinize and criticize my
-                Resume</a>
-            <br>
-            <br>
-            <br>
-            <br>
+                <h2 style="font-size: 24px;">My Resume</h2>
+                <a href="My_resume.html" target="_blank">Click here to access, scrutinize and criticize my
+                    Resume</a>
+                <br>
+                <br>
+                <br>
+                <br>
             </div>
             <div id="skills">
-            <h2 style="font-size: 24px;">Skills</h2>
-            <b>
-                <p>C</p>
-                <p>Python</p>
-                <p>Java</p>
-                <p>HTML</p>
-                <p>CSS</p>
-            </b>
-            <br>
-            <br>
-            <br>
+                <h2 style="font-size: 24px;">Skills</h2>
+                <b>
+                    <p>C</p>
+                    <p>Python</p>
+                    <p>Java</p>
+                    <p>HTML</p>
+                    <p>CSS</p>
+                </b>
+                <br>
+                <br>
+                <br>
             </div>
+            <h1>Projects</h1>
+            <div class="card" id="projects">
+                <img src="sss.png" style="width:100%" height="280">
+                <h1>Password Generator</h1>
+                <p class="title"><a href="https://aditya1219.github.io/aditya1219.github.io-passswordgenerator/"
+                        target="_blank"> Go to
+                        site</a></p>
+            </div>
+
+
             <div id="contact">
-            <h2 style="font-size: 24px;">Contact me</h2>
-            <a href="https://www.instagram.com/aditya_patil1495/" target="_blank">Click here to pay me
-                a visit on
-                Instagram</a>
-            &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-            <a href="https://www.linkedin.com/in/aditya-patil-baa50b1aa/" target="_blank">Or click here to meet me on
-                linkedin</a>
-            <br>&nbsp;&nbsp;Email : patiladitya1495@gmail.com
+                <h2 style="font-size: 24px;">Contact me</h2>
+                <a href="https://www.instagram.com/aditya_patil1495/" target="_blank">Click here to pay me
+                    a visit on
+                    Instagram</a>
+                &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+                <a href="https://www.linkedin.com/in/aditya-patil-baa50b1aa/" target="_blank">Or click here to meet me
+                    on
+                    linkedin</a>
+                <br>&nbsp;&nbsp;Email : patiladitya1495@gmail.com
             </div>
         </center>
     </div>
